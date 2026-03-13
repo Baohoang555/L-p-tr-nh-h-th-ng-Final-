@@ -5,6 +5,5 @@ namespace InventoryKpiSystem.Core.Models
         public string ProductId { get; set; } = string.Empty;
         public decimal InventoryTurnover { get; set; }
         public decimal StockValue { get; set; }
-        public int CurrentStock { get; set; }
     }
 }
