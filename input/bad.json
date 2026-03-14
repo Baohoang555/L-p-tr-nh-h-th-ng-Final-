@@ -1,7 +1,0 @@
-{
-  "InvoiceID": "INV-003",
-  "Date": "2026-03-03",
-  "Customer": "Broken Data",
-  "Items": [
-    { "Product": "Tablet", "Quantity": 3, "UnitPrice": 400 }
-  ]
