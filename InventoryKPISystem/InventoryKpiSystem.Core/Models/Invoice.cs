@@ -7,11 +7,11 @@ namespace InventoryKpiSystem.Core.Models
     {
         public string InvoiceID { get; set; } = string.Empty;
         public string InvoiceNumber { get; set; } = string.Empty;
-        public string Type { get; set; } = string.Empty; // "ACCREC" (Bán) hoặc "ACCPAY" (Nhập)
+        public string Type { get; set; } = string.Empty; // ACCPAY = Nhập, ACCREC = Bán
+        public string Status { get; set; } = string.Empty;
         public DateTime Date { get; set; }
         public decimal Total { get; set; }
-
-        // Danh sách các mặt hàng chi tiết trong hóa đơn
+        
         public List<LineItem> LineItems { get; set; } = new List<LineItem>();
     }
 
@@ -22,5 +22,6 @@ namespace InventoryKpiSystem.Core.Models
         public decimal Quantity { get; set; }
         public decimal UnitAmount { get; set; }
         public decimal LineAmount { get; set; }
+        public decimal TaxAmount { get; set; }
     }
 }
