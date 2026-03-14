@@ -21,8 +21,8 @@ InventoryKpiSystem/
 │   │   ├── Invoice.cs
 │   │   ├── PurchaseOrder.cs
 │   │   ├── Product.cs
-│   │   ├── KpiReport.cs                   # ✨ THÊM
-│   │   └── ProductKpi.cs                  # ✨ THÊM
+│   │   ├── KpiReport.cs                   
+│   │   └── ProductKpi.cs                  
 │   │
 │   ├── 📁 DataAccess/                      # ✨ THÊM [THÀNH VIÊN 1]
 │   │   ├── JsonDataReader.cs

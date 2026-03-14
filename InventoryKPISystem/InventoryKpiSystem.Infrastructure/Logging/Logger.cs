@@ -104,10 +104,7 @@ namespace InventoryKpiSystem.Infrastructure.Logging
             }
         }
 
-        /// <summary>
-        /// Nén/Lưu trữ file log hiện tại và tạo file mới.
-        /// Thường gọi khi kết thúc phiên làm việc hoặc file quá lớn.
-        /// </summary>
+
         public void RotateLogFile()
         {
             lock (_lockObject)
