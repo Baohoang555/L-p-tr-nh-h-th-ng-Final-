@@ -100,7 +100,6 @@ namespace InventoryKpiSystem.Infrastructure.Logging
             }
             catch (Exception ex)
             {
-                // Sử dụng Console.Error cho lỗi ghi log để không bị lẫn vào luồng log chính
                 Console.Error.WriteLine($"CRITICAL ERROR: Failed to write log to file: {ex.Message}");
             }
         }
