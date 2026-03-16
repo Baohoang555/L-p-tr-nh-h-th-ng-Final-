@@ -1,0 +1,14 @@
+{
+  "reportId": "b7fcb1cd-3e86-43c3-befc-8ef146a8c888",
+  "exportedDate": "2026-03-17T01:58:18.9251546+07:00",
+  "details": [],
+  "totalStockValue": 0,
+  "totalProductsProcessed": 0,
+  "systemWide": {
+    "totalSkus": 0,
+    "totalStockValue": 0,
+    "outOfStockCount": 0,
+    "avgDailySales": 0,
+    "avgInventoryAgeDays": 0
+  }
+}
