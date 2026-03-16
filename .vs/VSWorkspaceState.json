@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\InventoryKpiSystem.Core",
+    "\\System-Programming",
+    "\\System-Programming\\data",
+    "\\System-Programming\\docs",
+    "\\System-Programming\\InventoryKpiSystem.ConsoleApp",
+    "\\System-Programming\\InventoryKpiSystem.ConsoleApp\\Configuration",
+    "\\System-Programming\\InventoryKpiSystem.Infrastructure",
+    "\\System-Programming\\InventoryKpiSystem.Infrastructure\\Logging",
+    "\\System-Programming\\InventoryKpiSystem.Tests"
+  ],
+  "SelectedNode": "\\System-Programming\\InventoryKpiSystem.ConsoleApp\\Configuration\\AppConfig.cs",
+  "PreviewInSolutionExplorer": false
+}
